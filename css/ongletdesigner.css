@@ -1,0 +1,159 @@
+body, html {
+  padding-top:20px;
+  margin: 0;
+  background-color: #FDC209
+}
+.logo {
+  background-color: #fff;
+}
+.container-fluid img {
+  margin-left: 100px
+}
+.container {
+  margin-top: 20px
+}
+body{
+  font-family: sans-serif
+}
+a, a:hover {
+  text-decoration: none
+}
+.container-fluid {
+  padding: 0;
+}
+
+/*carousel*/
+a img:hover { 
+  background-color: white;
+}
+
+#myCarousel .nav a small
+{
+    display: block;
+}
+#myCarousel .nav
+{
+    background: #eee;
+}
+.nav-justified > li > a
+{
+    border-radius: 0px;
+}
+.nav-pills>li[data-slide-to="0"].active a { background-color: #16a085; }
+.nav-pills>li[data-slide-to="1"].active a { background-color: grey; }
+.nav-pills>li[data-slide-to="2"].active a { background-color: #2980b9; }
+
+
+/*Footer*/
+.footer {
+color: #fff;
+ background-color: #FDC209;
+ padding: 20px;
+}
+.container {
+  margin-top: 20px;
+}
+
+/* Carousel Styles */
+.carousel-indicators .active {
+  background-color: #2980b9;
+}
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 400px
+}
+
+.carousel-control {
+  width: 0;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+opacity: 1;
+filter: alpha(opacity=100);
+background-image: none;
+background-repeat: no-repeat;
+text-shadow: none;
+}
+
+.carousel-control.left span {
+padding: 15px;
+}
+
+.carousel-control.right span {
+padding: 15px;
+}
+
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-prev, 
+.carousel-control .icon-next {
+position: absolute;
+top: 45%;
+z-index: 5;
+display: inline-block;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+left: 0;
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+right: 0;
+}
+
+.carousel-control.left span,
+.carousel-control.right span {
+background-color:transparent;
+}
+
+.carousel-control.left span:hover,
+.carousel-control.right span:hover {
+opacity: .7;
+filter: alpha(opacity=70);
+}
+
+/* Carousel Header Styles */
+.header-text {
+  position: absolute;
+  top: 20%;
+  left: 1.8%;
+  right: auto;
+  width: 96.66666666666666%;
+  color: #fff;
+}
+
+.header-text h2 {
+  font-size: 40px;
+}
+
+.header-text h2 span {
+  background-color: grey;
+padding: 10px;
+}
+
+.header-text h3 span {
+background-color:#FDC209;
+padding: 15px;
+}
+
+.btn-min-block {
+  min-width: 170px;
+  line-height: 26px;
+}
+
+.btn-theme {
+  color: grey;
+  background-color: #FDC209;
+  border: 2px solid grey;
+  margin-right: 15px;
+}
+
+.btn-theme:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
